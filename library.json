@@ -1,8 +1,8 @@
 {
-  "name": "AbsoluteEncoder",
+  "name": "Out_0_10V",
   "version": "1.0.0",
-  "description": "This library read rotations and step from absolute encoders by SSI",
-  "keywords": "Absolute encoder, SSI",
+  "description": "This library set voltage 0V to 10V in Mercury module",
+  "keywords": "Arduino DAC, Mercury",
   "authors":
   {
     "name":  "Krzychoooo",
@@ -12,10 +12,10 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/krzychoooo/AbsoluteEncoder"
+    "url": "https://github.com/krzychoooo/Out_0_10V"
   },
    "frameworks": "arduino",
-  "homepage": "https://github.com/krzychoooo/AbsoluteEncoder",
+  "homepage": "https://github.com/krzychoooo/Out_0_10V",
   "export": {
     "exclude": [
       "linux",
@@ -23,7 +23,11 @@
       "tests"
     ]
   },
+  "dependencies":
+  {
+    "robtillaart/MCP4725": "@ 0.4.1"
+  },
   "license": "MIT",
   "examples": "examples/*/*/*.ino",
-  "headers": ["AbsoluteEncoder.h"]
+  "headers": ["Out_0_10V.h"]
 }
