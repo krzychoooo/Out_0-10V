@@ -7,11 +7,6 @@ This Arduino library is designed for easy operation of the <a href="https://gith
 This library requires the use of the library <a href="https://github.com/RobTillaart/MCP4725.git" target="_blank">https://github.com/RobTillaart/MCP4725.git</a>
 
 ## How to use:   
-Run example 1.   
-* This Arduino library is designed for easy operation of the Mercury OUT10V module.
-This library requires the use of the library.
-
-How to use
 
 Run example 1   
 * Connect the serial port to the monitor (9600).   
