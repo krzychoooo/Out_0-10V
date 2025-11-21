@@ -91,8 +91,6 @@ void loop(void) {
     
     Serial.println(dacValue);
   }
-  
-  // myDac.setValue(dacValue);
 
 }
 
