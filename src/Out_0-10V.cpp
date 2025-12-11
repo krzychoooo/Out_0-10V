@@ -13,7 +13,7 @@ void Out_0_10V::setVoltage(uint16_t miliVolt){
     if (miliVolt>10000) miliVolt = 10000;
     
     uint16_t i = map(miliVolt, 0, 10000, this->_limes0V, this->_limes10V);
-    Serial.print("map="); Serial.println(i);
+    // Serial2.print("map="); Serial2.println(i);
     _MCP4725Obj->setValue(i);
 }
 
