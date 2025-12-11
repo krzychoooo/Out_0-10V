@@ -1,6 +1,6 @@
 {
   "name": "Out_0_10V",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This library set voltage 0V to 10V in Mercury module",
   "keywords": "Arduino DAC, Mercury",
   "authors":
